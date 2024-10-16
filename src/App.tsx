@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import PhotoGallery from './component/PhotoGallery';
 import PhotoDetail from './component/PhotoDetail';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+
 import { fetchPhotos, UnsplashPhoto } from './unsplashService';
 
 function App() {
